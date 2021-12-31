@@ -1,0 +1,182 @@
+{
+ "cells": [
+  {
+   "cell_type": "code",
+   "execution_count": 1,
+   "id": "5a29339d",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "Twinkle, twinkle, little star, \n",
+      "\tHow I wonder what you are! \n",
+      "\t\tUp above the world so high, \n",
+      "\t\tLike a diamond in the sky. \n",
+      "Twinkle, twinkle, little star, \n",
+      "\tHow I wonder what you are!\n"
+     ]
+    }
+   ],
+   "source": [
+    "\"\"\"Question No. 1 : write a python program to print the given string in a specific format\"\"\"\n",
+    "\n",
+    "\n",
+    "print(\"Twinkle, twinkle, little star, \\n\\tHow I wonder what you are! \\n\\t\\tUp above the world so high, \\n\\t\\tLike a diamond in the sky. \\nTwinkle, twinkle, little star, \\n\\tHow I wonder what you are!\")"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 1,
+   "id": "bd719178",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "Python version of current system is : \n",
+      "3.9.7 (default, Sep 16 2021, 16:59:28) [MSC v.1916 64 bit (AMD64)]\n"
+     ]
+    }
+   ],
+   "source": [
+    "\"\"\"Question No. 2 : write a python program to get the python version you are using \"\"\"\n",
+    "\n",
+    "\n",
+    "import sys\n",
+    "print(\"Python version of current system is : \")\n",
+    "print (sys.version)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 1,
+   "id": "afa28239",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "Current date and time is : \n",
+      "2021-12-31 22:50:12\n"
+     ]
+    }
+   ],
+   "source": [
+    "\"\"\"Question No. 3 : write a python program to display the current date and time \"\"\"\n",
+    "\n",
+    "\n",
+    "import datetime\n",
+    "print (\"Current date and time is : \")\n",
+    "print (datetime.datetime.now().strftime(\"%Y-%m-%d %H:%M:%S\"))"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 1,
+   "id": "293506a2",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "Input the radius of the circle : 3\n",
+      "The area of the circle with radius 3.0 is: 28.274333882308138\n"
+     ]
+    }
+   ],
+   "source": [
+    "\"\"\"Question No. 4 : write a python program which accepts the radius of a circle from the user and compute the area \"\"\"\n",
+    "\n",
+    "\n",
+    "from math import pi\n",
+    "radius = float(input (\"Input the radius of the circle : \"))\n",
+    "print (\"The area of the circle with radius \" + str(radius) + \" is: \" + str(pi * radius**2))"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 1,
+   "id": "160a835f",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "Input your First Name : Hamza\n",
+      "Input your Last Name : Aslam\n",
+      "Aslam Hamza\n"
+     ]
+    }
+   ],
+   "source": [
+    "\"\"\"Question No. 5 : Write a Python program which accepts the user's first and last name and print them in reverse order with a space between them \"\"\"\n",
+    "\n",
+    "\n",
+    "fname = input(\"Input your First Name : \")\n",
+    "lname = input(\"Input your Last Name : \")\n",
+    "print (lname + \" \" + fname)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 1,
+   "id": "85333a34",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "Enter first number: 5\n",
+      "Enter second number: 6\n",
+      "Sum = 11.0\n"
+     ]
+    }
+   ],
+   "source": [
+    "\"\"\"Question No. 6 : write a python program which takes two inputs from user and print them addition \"\"\"\n",
+    "\n",
+    "\n",
+    "num1 = input('Enter first number: ')\n",
+    "num2 = input('Enter second number: ')\n",
+    "sum = float(num1) + float(num2)\n",
+    "print('Sum =', sum)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "1efe0ed5",
+   "metadata": {},
+   "outputs": [],
+   "source": []
+  }
+ ],
+ "metadata": {
+  "kernelspec": {
+   "display_name": "Python 3 (ipykernel)",
+   "language": "python",
+   "name": "python3"
+  },
+  "language_info": {
+   "codemirror_mode": {
+    "name": "ipython",
+    "version": 3
+   },
+   "file_extension": ".py",
+   "mimetype": "text/x-python",
+   "name": "python",
+   "nbconvert_exporter": "python",
+   "pygments_lexer": "ipython3",
+   "version": "3.9.7"
+  }
+ },
+ "nbformat": 4,
+ "nbformat_minor": 5
+}
